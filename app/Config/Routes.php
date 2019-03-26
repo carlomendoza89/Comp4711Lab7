@@ -64,9 +64,6 @@ $routes->setTranslateURIDashes(false);
 $routes->set404Override();
 $routes->setAutoRoute(true);
 
-$routes->resource('Client',['websafe'=>1]);
-$routes->resource('Server',['websafe'=>1]);
-
 /**
  * --------------------------------------------------------------------
  * Route Definitions
